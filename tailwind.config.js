@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         homeimg: "url('./src/assets/homeimg.png')",
+        footerimg: "url(./src/assets/Footerbg.png)"
       },
       colors: {
         orange: "#FA4A0C",

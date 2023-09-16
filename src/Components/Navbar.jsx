@@ -1,7 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../assets/Logo.png";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
+  const changeMenu = () => {
+    const menu = document.getElementsByClassName("menu");
+    
+  };
   return (
     <nav className="w-full h-15 flex center justify-around px-4 md:px-6 items-center sticky">
       <div>
@@ -22,7 +26,14 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="md:hidden ">
-        <FontAwesomeIcon className="text-2xl menu-icon" icon={faBars} />
+        <FontAwesomeIcon
+          className="text-2xl menu-icon menu"
+          onClick={changeMenu}
+          icon={faBars}
+        />
+      </div>
+      <div className="hidden md:hidden ">
+        <FontAwesomeIcon icon={faX} size="xl" />
       </div>
     </nav>
   );
