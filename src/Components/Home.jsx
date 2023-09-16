@@ -3,7 +3,7 @@ import right from "../assets/right1.png";
 const Home = () => {
   return (
     <div className="mt-4 w-full h-screen">
-      <div className="w-full h-full flex justify-center mt-[10%] border-red-600 sm:mt-[0] sm:bg-homeimg sm:bg-no-repeat relative xl:bg-cover">
+      <div className="w-full h-full flex justify-center mt-[10%] border-red-600 sm:mt-20 sm:bg-homeimg sm:bg-no-repeat relative xl:bg-cover">
         <div className="h-full flex-col p-8 sm:mt-[10%]">
           <div className="text-black text-center gap sm:text-white">
             <div className="w-full h-full md:hidden"></div>
@@ -26,12 +26,12 @@ const Home = () => {
           </div>
         </div>
         <img
-          className="animate-moveside1 left-[-9%] bottom-[-40px] w-[350px] h-[550px] absolute sm:bottom-[0px] sm:left-[10%] md:left-[25%] sm:animate-none sm:hover:animate-moveside1 md:bottom-[60px] xl:bottom-[-40%] xl:left-[30%]"
+          className="animate-moveside1 left-[-9%] bottom-[-40px] w-[350px] h-[550px] absolute sm:bottom-[0px] sm:left-[10%] md:left-[25%] sm:animate-none sm:hover:animate-moveside1 md:bottom-[60px] xl:bottom-[-40%] xl:left-[30%] 2xl:bottom-[-10%] 2xl:w-[500px] 2xl:h-[700px]"
           src={left}
           alt="phone image"
         />
         <img
-          className="animate-moveside2 bottom-[-60px] right-[6%] w-[200px] h-[380px] absolute sm:bottom-[0px] sm:right-[25%] sm:animate-none sm:hover:animate-moveside2 md:bottom-[50px] md:left-[50%] xl:bottom-[-35%]  xl:right-[35%]"
+          className="animate-moveside2 bottom-[-60px] right-[6%] w-[200px] h-[380px] absolute sm:bottom-[0px] sm:right-[25%] sm:animate-none sm:hover:animate-moveside2 md:bottom-[50px] md:left-[50%] xl:bottom-[-35%]  xl:right-[35%] 2xl:w-[300px] 2xl:h-[500px] 2xl:bottom-[-10%]"
           src={right}
           alt="Phone image"
         />
